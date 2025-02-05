@@ -1,0 +1,61 @@
+h1{
+    color: red;
+}
+
+.BOX{
+    border: 10px solid black;
+    height: 30rem;
+    width: 25rem    ;
+    margin-top: 8rem;
+    margin-left: 40rem;
+}
+.green{
+    height:5rem;
+    background-color: green;
+    margin-top: 20rem;
+    z-index: 5;
+}
+
+@keyframes mymove {
+    from {top:0px;}
+    to{top:200px;}    
+}
+
+@keyframes slide-in {
+    from {
+      transform: translateY(0%);
+    }
+  
+    to {
+      transform: translateY(500%);
+    }
+  }
+
+  
+
+
+.ball{
+    height: 5rem;
+    width: 5rem;
+    background-color: red;
+    border-radius: 50%;
+    margin-left: 12rem;
+    animation: slide-in 5s infinite;
+    z-index: -1;
+}
+
+.ball:hover {
+    animation: none;
+  }
+
+  .ball:hover::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 5rem;
+    width: 5rem;
+    background-color: red;
+    border-radius: 50%;
+    animation: slide-in 5s infinite linear;
+  }
