@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+</head>
+<body>
+    <h1>Login Form</h1>
+    <label for="username">Username</label>
+    <input type="email" name="username" id="email" placeholder="Enter your email" style="height: 30px; width: 200px;">
+
+    <br>
+    <br>
+
+    <label for="password">Password</label>
+    <input type="password" name="password" id="password" placeholder="Enter your password" style="height: 30px; width: 200px;">
+
+    <br>
+    <br>
+
+    <button type="submit"  onclick="login()" style="padding: 10px; background-color: green; color: white; border: 2px solid black; border-radius: 5px; cursor: pointer;" >Login</button>
+    <a href="/signUp.html"><button type="button"  style="padding: 10px; background-color: green; color: white; border: 2px solid black; border-radius: 5px; cursor: pointer;">SignUp</button></a>
+
+    <script>
+        function login()
+        {
+            var email = document.getElementById("email").value;
+            var password = document.getElementById("password").value;
+            
+            // console.log(email, password);
+            if(email.length == 0 || password.length == 0)
+            {
+                alert("Enter the valid credentials");
+                return;
+            }
+
+            var storedPassword = localStorage.getItem(email);
+
+            if(password == null || storedPassword == null)
+            {
+                alert("Login Failed");
+            }
+            else
+            {
+                if(storedPassword == password)
+                {
+                    alert("Login Successful");
+                    window.location.href = "/success.html";
+                }
+                else
+                {
+                    alert("Login Failed");
+                }
+            }
+
+            // console.log(storedEmails);
+            // console.log(storedPasswords);
+            document.getElementById("email").value  = "";
+            document.getElementById("password").value = "";
+        }
+    </script>
+
+</body>
+
+</html>
