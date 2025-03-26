@@ -1,0 +1,8 @@
+<h2>Signup</h2>
+<form (ngSubmit)="onSignup()">
+  <input type="text" [(ngModel)]="username" name="username" placeholder="Enter username" required>
+  <input type="password" [(ngModel)]="password" name="password" placeholder="Enter password" required>
+  <button type="submit">Signup</button>
+  <p *ngIf="message">{{ message }}</p>
+</form>
+<a routerLink="/signin">Already have an account? Sign in</a>

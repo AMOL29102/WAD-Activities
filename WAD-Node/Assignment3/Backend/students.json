@@ -1,0 +1,123 @@
+[
+    {
+      "id": 1,
+      "name": "Aarav Sharma",
+      "age": 20,
+      "email": "aarav.sharma@example.com",
+      "course": "Computer Science",
+      "marks": {
+        "math": 85,
+        "physics": 78,
+        "chemistry": 90
+      }
+    },
+    {
+      "id": 2,
+      "name": "Ishita Verma",
+      "age": 19,
+      "email": "ishita.verma@example.com",
+      "course": "Electronics",
+      "marks": {
+        "math": 80,
+        "physics": 88,
+        "chemistry": 85
+      }
+    },
+    {
+      "id": 3,
+      "name": "Rohan Desai",
+      "age": 21,
+      "email": "rohan.desai@example.com",
+      "course": "Mechanical",
+      "marks": {
+        "math": 75,
+        "physics": 82,
+        "chemistry": 78
+      }
+    },
+    {
+      "id": 4,
+      "name": "Priya Kapoor",
+      "age": 20,
+      "email": "priya.kapoor@example.com",
+      "course": "Information Technology",
+      "marks": {
+        "math": 92,
+        "physics": 89,
+        "chemistry": 94
+      }
+    },
+    {
+      "id": 5,
+      "name": "Aditya Nair",
+      "age": 22,
+      "email": "aditya.nair@example.com",
+      "course": "Civil Engineering",
+      "marks": {
+        "math": 70,
+        "physics": 74,
+        "chemistry": 72
+      }
+    },
+    {
+      "id": 6,
+      "name": "Meera Joshi",
+      "age": 19,
+      "email": "meera.joshi@example.com",
+      "course": "Biotechnology",
+      "marks": {
+        "math": 88,
+        "physics": 85,
+        "chemistry": 91
+      }
+    },
+    {
+      "id": 7,
+      "name": "Vikram Rao",
+      "age": 21,
+      "email": "vikram.rao@example.com",
+      "course": "Electrical Engineering",
+      "marks": {
+        "math": 79,
+        "physics": 80,
+        "chemistry": 83
+      }
+    },
+    {
+      "id": 8,
+      "name": "Sanya Pillai",
+      "age": 20,
+      "email": "sanya.pillai@example.com",
+      "course": "Data Science",
+      "marks": {
+        "math": 95,
+        "physics": 92,
+        "chemistry": 96
+      }
+    },
+    {
+      "id": 9,
+      "name": "Rajesh Kumar",
+      "age": 19,
+      "email": "rajesh.kumar@example.com",
+      "course": "Artificial Intelligence",
+      "marks": {
+        "math": 89,
+        "physics": 90,
+        "chemistry": 88
+      }
+    },
+    {
+      "id": 10,
+      "name": "Ananya Sen",
+      "age": 21,
+      "email": "ananya.sen@example.com",
+      "course": "Robotics",
+      "marks": {
+        "math": 84,
+        "physics": 86,
+        "chemistry": 87
+      }
+    }
+  ]
+  
